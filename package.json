@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/:_authToken=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"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "test": "exit 0"
