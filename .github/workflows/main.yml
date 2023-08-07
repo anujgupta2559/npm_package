@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: https://registry.npmjs.org/
+          registry-url: https://registry.npmjs.org//:_authToken=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
       - run: npm install
       - run: npm publish
         env:
