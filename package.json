@@ -1,0 +1,22 @@
+{
+  "name": "anujgupta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anujgupta2559/package-01.git"
+  },
+  "author": "Anuj Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anujgupta2559/package-01/issues"
+  },
+  "homepage": "https://github.com/anujgupta2559/package-01#readme",
+  "publishConfig": {
+    "anujgupta2559:registry": "https://npm.pkg.github.com"
+  }
+}
