@@ -16,10 +16,11 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install npm
         run: npm install
-      # - run: npm install
+
       - name: Publish to Github
-      - run: npm config set registry https://npm.pkg.github.com
-      - run: npm set //npm.pkg.github.com/:_authToken=${{env.NODE_AUTH_TOKEN}}
-      - run: npm publish --registry https://npm.pkg.github.com
+        run:
+          npm config set registry https://npm.pkg.github.com
+          npm set //npm.pkg.github.com/:_authToken=${{env.NODE_AUTH_TOKEN}}
+          npm publish --registry https://npm.pkg.github.com
         env:
           NODE_AUTH_TOKEN: ${{secrets.GIT_TOKEN}}
