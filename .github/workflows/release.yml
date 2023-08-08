@@ -1,0 +1,13 @@
+changelog:
+  - title: Features
+    labels:
+      - feature
+  - title: Bug Fixes
+    labels:
+      - bug
+
+exclude:
+  labels:
+    - documentation
+  authors:
+    - johndoef
