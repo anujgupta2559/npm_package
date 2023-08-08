@@ -1,1 +1,4 @@
-console.log('Hello world, this is the first package');
+const randomNumber = () => {
+    return Math.floor((Math.random() * (10 - 5 + 1)))
+}
+console.log(randomNumber())
