@@ -1,18 +1,22 @@
 {
-  "name": "@anujgupta2559/print-hello-world",
+  "name": "print-hello-world",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/anujgupta2559"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anujgupta2559/package-01.git"
+    "url": "git+https://github.com/anujgupta2559/package-01.git"
   },
-  "author": {
-    "name": "Anuj Gupta",
-    "email": "anujgupta@cedcommerce.com"
+  "author": "Anuj Gupta <anujgupta@cedcommerce.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anujgupta2559/package-01/issues"
   },
-  "license": "ISC"
+  "homepage": "https://github.com/anujgupta2559/package-01#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": ""
 }
