@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anujgupta2559/package-01.git"
+    "url": "git+https://github.com/anujgupta2559/npm_package.git"
   },
   "author": "Anuj Gupta <anujgupta@cedcommerce.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anujgupta2559/package-01/issues"
+    "url": "https://github.com/anujgupta2559/npm_package/issues"
   },
-  "homepage": "https://github.com/anujgupta2559/package-01#readme",
+  "homepage": "https://github.com/anujgupta2559/npm_package#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
