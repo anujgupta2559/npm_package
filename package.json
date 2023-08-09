@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/anujgupta2559/npm_package#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 1"
   },
   "description": ""
 }
