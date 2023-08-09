@@ -9,10 +9,10 @@ changelog:
   categories:
     - title: Breaking Changes 🛠
       labels:
-        - bug
+        - fix
     - title: Exciting New Features 🎉
       labels:
-        - feature
+        - feat
         - update
     - title: Other Changes
       labels:
