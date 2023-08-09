@@ -11,6 +11,7 @@ jobs:
       # Setup .npmrc file to publish to npm
       - name: Setup Node.js 16
         uses: actions/setup-node@v2
+        
         with:
           node-version: '16'
           registry-url: 'https://registry.npmjs.org'
