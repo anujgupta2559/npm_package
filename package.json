@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/anujgupta2559/npm_package#readme",
   "scripts": {
-    "test": "exit 1"
+    "test": "echo test cases && exit 1"
   },
   "description": ""
 }
