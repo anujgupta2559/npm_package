@@ -12,7 +12,7 @@ changelog:
         - fix
     - title: Exciting New Features 🎉
       labels:
-        - feat
+        - feature
         - update
     - title: Other Changes
       labels:
