@@ -1,0 +1,36 @@
+name: Create Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Create release
+        uses: actions/create-release@v1
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+
+      - name: Generate release notes
+        uses: peter-evans/create-release-notes@v1
+        with:
+          tag_name: ${{ github.ref }}
+          labels:
+            - bug
+            - feature
+            - documentation
+
+      - name: Publish release notes
+        uses: actions/upload-release-asset@v1
+        with:
+          asset_path: release-notes.md
+          asset_name: release-notes.md
+          asset_content: ${{ steps.generate-release-notes.outputs.release_notes }}
